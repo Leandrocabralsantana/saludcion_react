@@ -1,0 +1,290 @@
+[
+  {
+    "nombre": "Juan",
+    "apellido": "Martínez",
+    "descripcion": "Médico especializado en pediatría",
+    "telefonos": ["123456789", "987654321"]
+  },
+  {
+    "nombre": "María",
+    "apellido": "García",
+    "descripcion": "Abogada experta en derecho penal",
+    "telefonos": ["111222333"]
+  },
+  {
+    "nombre": "Carlos",
+    "apellido": "López",
+    "descripcion": "Ingeniero de software con experiencia en desarrollo web",
+    "telefonos": ["555666777", "999888777"]
+  },
+  {
+    "nombre": "Ana",
+    "apellido": "Pérez",
+    "descripcion": "Chef especializada en cocina italiana",
+    "telefonos": ["444555666"]
+  },
+  {
+    "nombre": "Luis",
+    "apellido": "Rodríguez",
+    "descripcion": "Psicólogo clínico con enfoque en terapia cognitivo-conductual",
+    "telefonos": ["777888999"]
+  },
+  {
+    "nombre": "Sofía",
+    "apellido": "Hernández",
+    "descripcion": "Arquitecta con experiencia en diseño sostenible",
+    "telefonos": ["333444555"]
+  },
+  {
+    "nombre": "Javier",
+    "apellido": "Díaz",
+    "descripcion": "Fotógrafo profesional especializado en fotografía de bodas",
+    "telefonos": ["123123123", "456456456"]
+  },
+  {
+    "nombre": "Laura",
+    "apellido": "Gómez",
+    "descripcion": "Diseñadora gráfica con habilidades en ilustración digital",
+    "telefonos": ["789789789"]
+  },
+  {
+    "nombre": "Diego",
+    "apellido": "Muñoz",
+    "descripcion": "Contador público con experiencia en auditoría financiera",
+    "telefonos": ["000111222", "333444555"]
+  },
+  {
+    "nombre": "Elena",
+    "apellido": "Alvarez",
+    "descripcion": "Periodista especializada en investigación de temas políticos",
+    "telefonos": ["999888777"]
+  },
+  {
+    "nombre": "Gabriel",
+    "apellido": "Ruiz",
+    "descripcion": "Mecánico automotriz con certificación en sistemas de inyección electrónica",
+    "telefonos": ["666555444"]
+  },
+  {
+    "nombre": "Paula",
+    "apellido": "Sánchez",
+    "descripcion": "Profesora de matemáticas con experiencia en enseñanza secundaria",
+    "telefonos": ["222333444"]
+  },
+  {
+    "nombre": "Pedro",
+    "apellido": "González",
+    "descripcion": "Entrenador personal certificado en nutrición deportiva",
+    "telefonos": ["777666555", "444333222"]
+  },
+  {
+    "nombre": "Lucía",
+    "apellido": "Torres",
+    "descripcion": "Dentista especializada en odontopediatría",
+    "telefonos": ["888999000"]
+  },
+  {
+    "nombre": "Andrés",
+    "apellido": "Ortega",
+    "descripcion": "Electricista con conocimientos en instalaciones industriales",
+    "telefonos": ["123987456"]
+  },
+  {
+    "nombre": "Valentina",
+    "apellido": "Ramírez",
+    "descripcion": "Economista con experiencia en análisis de mercado",
+    "telefonos": ["654987321"]
+  },
+  {
+    "nombre": "Ricardo",
+    "apellido": "Fernández",
+    "descripcion": "Ingeniero civil con especialización en estructuras",
+    "telefonos": ["321654987"]
+  },
+  {
+    "nombre": "Marcela",
+    "apellido": "Castro",
+    "descripcion": "Nutricionista especializada en dietética y alimentación saludable",
+    "telefonos": ["789456123"]
+  },
+  {
+    "nombre": "Felipe",
+    "apellido": "Vargas",
+    "descripcion": "Terapeuta ocupacional con enfoque en rehabilitación neurológica",
+    "telefonos": ["456123789"]
+  },
+  {
+    "nombre": "Carolina",
+    "apellido": "Mendoza",
+    "descripcion": "Consultora de recursos humanos con experiencia en reclutamiento",
+    "telefonos": ["654321987"]
+  },
+  {
+    "nombre": "David",
+    "apellido": "Cruz",
+    "descripcion": "Peluquero especializado en cortes de cabello masculino",
+    "telefonos": ["987321654"]
+  },
+  {
+    "nombre": "Natalia",
+    "apellido": "Herrera",
+    "descripcion": "Psiquiatra con enfoque en trastornos de ansiedad",
+    "telefonos": ["741852963"]
+  },
+  {
+    "nombre": "Roberto",
+    "apellido": "Lara",
+    "descripcion": "Instructor de yoga certificado en técnicas de meditación",
+    "telefonos": ["369258147"]
+  },
+  {
+    "nombre": "Cristina",
+    "apellido": "Jiménez",
+    "descripcion": "Traductora e intérprete especializada en francés e inglés",
+    "telefonos": ["852147963"]
+  },
+  {
+    "nombre": "Martín",
+    "apellido": "Flores",
+    "descripcion": "Ingeniero eléctrico con experiencia en energías renovables",
+    "telefonos": ["159264837"]
+  },
+  {
+    "nombre": "Lorena",
+    "apellido": "Díaz",
+    "descripcion": "Diseñadora de modas con colecciones inspiradas en la naturaleza",
+    "telefonos": ["357486921"]
+  },
+  {
+    "nombre": "Fernando",
+    "apellido": "Navarro",
+    "descripcion": "Abogado especializado en derecho mercantil",
+    "telefonos": ["753951468"]
+  },
+  {
+    "nombre": "Adriana",
+    "apellido": "Orozco",
+    "descripcion": "Farmacéutica con experiencia en atención farmacéutica",
+    "telefonos": ["951753468"]
+  },
+  {
+    "nombre": "Gustavo",
+    "apellido": "Reyes",
+    "descripcion": "Instructor de fitness con especialización en entrenamiento HIIT",
+    "telefonos": ["369258147"]
+  },
+  {
+    "nombre": "Camila",
+    "apellido": "Silva",
+    "descripcion": "Diseñadora de interiores con enfoque en espacios minimalistas",
+    "telefonos": ["258147369"]
+  },
+  {
+    "nombre": "Sebastián",
+    "apellido": "Castillo",
+    "descripcion": "Ingeniero mecánico con experiencia en diseño de maquinaria pesada",
+    "telefonos": ["147369258"]
+  },
+  {
+    "nombre": "Paulina",
+    "apellido": "López",
+    "descripcion": "Asistente social con enfoque en atención a poblaciones vulnerables",
+    "telefonos": ["963258147"]
+  },
+  {
+    "nombre": "Héctor",
+    "apellido": "Guzmán",
+    "descripcion": "Terapeuta físico con especialización en rehabilitación deportiva",
+    "telefonos": ["741258963"]
+  },
+  {
+    "nombre": "Valeria",
+    "apellido": "Santos",
+    "descripcion": "Coach personal certificada en desarrollo personal y profesional",
+    "telefonos": ["369741852"]
+  },
+  {
+    "nombre": "Mario",
+    "apellido": "Montoya",
+    "descripcion": "Veterinario especializado en pequeños animales",
+    "telefonos": ["852963741"]
+  },
+  {
+    "nombre": "Daniela",
+    "apellido": "Castillo",
+    "descripcion": "Psicóloga educativa con experiencia en atención a niños con TDAH",
+    "telefonos": ["147258369"]
+  },
+  {
+    "nombre": "José",
+    "apellido": "Rojas",
+    "descripcion": "Pintor con habilidades en arte mural y graffiti",
+    "telefonos": ["258369147"]
+  },
+  {
+    "nombre": "Paola",
+    "apellido": "Chávez",
+    "descripcion": "Entrenadora de natación con enfoque en técnicas de respiración",
+    "telefonos": ["963741852"]
+  },
+  {
+    "nombre": "Rosa",
+    "apellido": "Fuentes",
+    "descripcion": "Dietista-nutricionista con especialización en nutrición clínica",
+    "telefonos": ["741852963"]
+  },
+  {
+    "nombre": "Andrea",
+    "apellido": "López",
+    "descripcion": "Terapeuta ocupacional con enfoque en pediatría",
+    "telefonos": ["369852741"]
+  },
+  {
+    "nombre": "Gabriela",
+    "apellido": "Vega",
+    "descripcion": "Periodista deportiva especializada en fútbol",
+    "telefonos": ["258963147"]
+  },
+  {
+    "nombre": "Roberto",
+    "apellido": "Ruíz",
+    "descripcion": "Ingeniero en telecomunicaciones con experiencia en redes móviles",
+    "telefonos": ["963147258"]
+  },
+  {
+    "nombre": "Paul",
+    "apellido": "Evans",
+    "descripcion": "Profesor de inglés como segundo idioma",
+    "telefonos": ["147963258"]
+  },
+  {
+    "nombre": "Olivia",
+    "apellido": "Fisher",
+    "descripcion": "Diseñadora de moda con colecciones de alta costura",
+    "telefonos": ["369147258"]
+  },
+  {
+    "nombre": "Daniel",
+    "apellido": "Wood",
+    "descripcion": "Desarrollador de videojuegos con experiencia en realidad virtual",
+    "telefonos": ["852369147"]
+  },
+  {
+    "nombre": "Julia",
+    "apellido": "Peters",
+    "descripcion": "Escritora de novelas de misterio y suspense",
+    "telefonos": ["147852369"]
+  },
+  {
+    "nombre": "Lucas",
+    "apellido": "Campbell",
+    "descripcion": "Entrenador personal especializado en fitness y musculación",
+    "telefonos": ["369852147"]
+  },
+  {
+    "nombre": "Marta",
+    "apellido": "Taylor",
+    "descripcion": "Diseñadora gráfica con experiencia en branding corporativo",
+    "telefonos": ["852147369"]
+  }
+]

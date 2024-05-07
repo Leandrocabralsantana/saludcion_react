@@ -1,0 +1,25 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #354f52; /* Borde verde oscuro */
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #034c18; /* Borde inferior verde oscuro */
+}
+
+th {
+  background-color: #025902; /* Fondo verde oscuro para las celdas de encabezado */
+  color: #ffffff; /* Texto blanco en celdas de encabezado */
+}
+
+tr:nth-child(even) {
+  background-color: rgb(8, 152, 40); /* Fondo verde oscuro para filas pares */
+}
+
+tr:hover {
+  background-color: #33fc2f; /* Fondo verde más oscuro al pasar el ratón */
+}

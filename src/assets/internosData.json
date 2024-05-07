@@ -1,0 +1,260 @@
+[
+  {
+    "piso": "Subsuelo",
+    "nombre": "Oficina",
+    "numero": "2901",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Subsuelo",
+    "nombre": "Recepción",
+    "numero": "2902",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Subsuelo",
+    "nombre": "Sala de Espera",
+    "numero": "2903",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Subsuelo",
+    "nombre": "Cafetería",
+    "numero": "2904",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Subsuelo",
+    "nombre": "Baños",
+    "numero": "2905",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Planta Baja",
+    "nombre": "Oficina",
+    "numero": "2001",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Planta Baja",
+    "nombre": "Sala de Conferencias",
+    "numero": "2002",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Planta Baja",
+    "nombre": "Sala de Reuniones",
+    "numero": "2003",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Planta Baja",
+    "nombre": "Baños",
+    "numero": "2004",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Primer Piso",
+    "nombre": "Oficina",
+    "numero": "2101",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Primer Piso",
+    "nombre": "Archivos",
+    "numero": "2102",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Primer Piso",
+    "nombre": "Sala de Espera",
+    "numero": "2103",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Primer Piso",
+    "nombre": "Baños",
+    "numero": "2104",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Segundo Piso",
+    "nombre": "Oficina",
+    "numero": "2201",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Segundo Piso",
+    "nombre": "Sala de Reuniones",
+    "numero": "2202",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Segundo Piso",
+    "nombre": "Sala de Espera",
+    "numero": "2203",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Segundo Piso",
+    "nombre": "Baños",
+    "numero": "2204",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Tercer Piso",
+    "nombre": "Oficina",
+    "numero": "2301",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Tercer Piso",
+    "nombre": "Sala de Conferencias",
+    "numero": "2302",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Tercer Piso",
+    "nombre": "Baños",
+    "numero": "2303",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Cuarto Piso",
+    "nombre": "Oficina",
+    "numero": "2401",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Cuarto Piso",
+    "nombre": "Archivos",
+    "numero": "2402",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Cuarto Piso",
+    "nombre": "Sala de Reuniones",
+    "numero": "2403",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Cuarto Piso",
+    "nombre": "Baños",
+    "numero": "2404",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Quinto Piso",
+    "nombre": "Oficina",
+    "numero": "2501",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Quinto Piso",
+    "nombre": "Sala de Espera",
+    "numero": "2502",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Quinto Piso",
+    "nombre": "Baños",
+    "numero": "2503",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Sexto Piso",
+    "nombre": "Oficina",
+    "numero": "2601",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Sexto Piso",
+    "nombre": "Sala de Conferencias",
+    "numero": "2602",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Sexto Piso",
+    "nombre": "Baños",
+    "numero": "2603",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Séptimo Piso",
+    "nombre": "Oficina",
+    "numero": "2701",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Séptimo Piso",
+    "nombre": "Sala de Espera",
+    "numero": "2702",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Séptimo Piso",
+    "nombre": "Baños",
+    "numero": "2703",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Octavo Piso",
+    "nombre": "Oficina",
+    "numero": "2801",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Octavo Piso",
+    "nombre": "Archivos",
+    "numero": "2802",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Octavo Piso",
+    "nombre": "Sala de Reuniones",
+    "numero": "2803",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Octavo Piso",
+    "nombre": "Baños",
+    "numero": "2804",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Noveno Piso",
+    "nombre": "Oficina",
+    "numero": "2901",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Noveno Piso",
+    "nombre": "Sala de Conferencias",
+    "numero": "2902",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Noveno Piso",
+    "nombre": "Baños",
+    "numero": "2903",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Décimo Piso",
+    "nombre": "Oficina",
+    "numero": "3001",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Décimo Piso",
+    "nombre": "Sala de Espera",
+    "numero": "3002",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  },
+  {
+    "piso": "Décimo Piso",
+    "nombre": "Baños",
+    "numero": "3003",
+    "empresa": { "id_empresa": 1, "nombre": "Hospital Privado de Rosario" }
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "matricula": "M123456",
+    "especialidad": "Cirugía General",
+    "nombre": "Juan",
+    "apellido": "González",
+    "fecha_ingreso": "2022-03-15",
+    "cargo": ["Director Médico", "Jefe de Servicio de Cirugía General"],
+    "numero_fijo": "011-1234567",
+    "celular": "011-987654321"
+  },
+  {
+    "matricula": "M789012",
+    "especialidad": "Cirugía General",
+    "nombre": "María",
+    "apellido": "Rodríguez",
+    "fecha_ingreso": "2020-07-20",
+    "cargo": ["Residente"],
+    "numero_fijo": "011-2345678",
+    "celular": "011-876543210"
+  },
+  {
+    "matricula": "M345678",
+    "especialidad": "Cirugía General",
+    "nombre": "Carlos",
+    "apellido": "Martínez",
+    "fecha_ingreso": "2021-11-10",
+    "cargo": ["Practicante"],
+    "numero_fijo": "011-3456789",
+    "celular": "011-765432109"
+  },
+  {
+    "matricula": "M901234",
+    "especialidad": "Cirugía General",
+    "nombre": "Ana",
+    "apellido": "López",
+    "fecha_ingreso": "2019-05-05",
+    "cargo": ["Técnico de Hemoterapia"],
+    "numero_fijo": "011-4567890",
+    "celular": "011-654321098"
+  },
+  {
+    "matricula": "M567890",
+    "especialidad": "Cirugía General",
+    "nombre": "Pedro",
+    "apellido": "Sánchez",
+    "fecha_ingreso": "2023-02-28",
+    "cargo": ["Médico de Imágenes"],
+    "numero_fijo": "011-5678901",
+    "celular": "011-543210987"
+  },
+  {
+    "matricula": "M123456",
+    "especialidad": "Cardiología",
+    "nombre": "Luis",
+    "apellido": "Hernández",
+    "fecha_ingreso": "2020-09-12",
+    "cargo": ["Director Médico", "Jefe de Servicio de Cardiología"],
+    "numero_fijo": "011-2345678",
+    "celular": "011-432109876"
+  },
+  {
+    "matricula": "M789012",
+    "especialidad": "Cardiología",
+    "nombre": "Laura",
+    "apellido": "Gómez",
+    "fecha_ingreso": "2018-12-03",
+    "cargo": ["Residente"],
+    "numero_fijo": "011-3456789",
+    "celular": "011-321098765"
+  },
+  {
+    "matricula": "M345678",
+    "especialidad": "Cardiología",
+    "nombre": "Pablo",
+    "apellido": "Díaz",
+    "fecha_ingreso": "2022-06-18",
+    "cargo": ["Practicante"],
+    "numero_fijo": "011-4567890",
+    "celular": "011-210987654"
+  },
+  {
+    "matricula": "M901234",
+    "especialidad": "Cardiología",
+    "nombre": "Martina",
+    "apellido": "Martínez",
+    "fecha_ingreso": "2019-03-25",
+    "cargo": ["Técnico de Hemoterapia"],
+    "numero_fijo": "011-5678901",
+    "celular": "011-109876543"
+  },
+  {
+    "matricula": "M567890",
+    "especialidad": "Cardiología",
+    "nombre": "Diego",
+    "apellido": "Fernández",
+    "fecha_ingreso": "2021-08-09",
+    "cargo": ["Médico de Imágenes"],
+    "numero_fijo": "011-6789012",
+    "celular": "011-098765432"
+  },
+  {
+    "matricula": "M123456",
+    "especialidad": "Pediatría",
+    "nombre": "Lucía",
+    "apellido": "Pérez",
+    "fecha_ingreso": "2019-11-30",
+    "cargo": ["Director Médico", "Jefe de Servicio de Pediatría"],
+    "numero_fijo": "011-7890123",
+    "celular": "011-987654321"
+  },
+  {
+    "matricula": "M789012",
+    "especialidad": "Pediatría",
+    "nombre": "Javier",
+    "apellido": "Sánchez",
+    "fecha_ingreso": "2020-04-15",
+    "cargo": ["Residente"],
+    "numero_fijo": "011-8901234",
+    "celular": "011-876543210"
+  },
+  {
+    "matricula": "M345678",
+    "especialidad": "Pediatría",
+    "nombre": "Marta",
+    "apellido": "González",
+    "fecha_ingreso": "2022-01-05",
+    "cargo": ["Practicante"],
+    "numero_fijo": "011-9012345",
+    "celular": "011-765432109"
+  },
+  {
+    "matricula": "M901234",
+    "especialidad": "Pediatría",
+    "nombre": "Carlos",
+    "apellido": "Díaz",
+    "fecha_ingreso": "2018-07-22",
+    "cargo": ["Técnico de Hemoterapia"],
+    "numero_fijo": "011-0123456",
+    "celular": "011-654321098"
+  },
+  {
+    "matricula": "M567890",
+    "especialidad": "Pediatría",
+    "nombre": "Ana",
+    "apellido": "Martínez",
+    "fecha_ingreso": "2023-05-18",
+    "cargo": ["Médico de Imágenes"],
+    "numero_fijo": "011-1234567",
+    "celular": "011-543210987"
+  },
+  {
+    "matricula": "M123456",
+    "especialidad": "Neurología",
+    "nombre": "Joaquín",
+    "apellido": "Hernández",
+    "fecha_ingreso": "2020-10-10",
+    "cargo": ["Director Médico", "Jefe de Servicio de Neurología"],
+    "numero_fijo": "011-2345678",
+    "celular": "011-432109876"
+  },
+  {
+    "matricula": "M789012",
+    "especialidad": "Neurología",
+    "nombre": "Valentina",
+    "apellido": "Gómez",
+    "fecha_ingreso": "2019-02-08",
+    "cargo": ["Residente"],
+    "numero_fijo": "011-3456789",
+    "celular": "011-321098765"
+  },
+  {
+    "matricula": "M345678",
+    "especialidad": "Neurología",
+    "nombre": "David",
+    "apellido": "Díaz",
+    "fecha_ingreso": "2021-04-25",
+    "cargo": ["Practicante"],
+    "numero_fijo": "011-4567890",
+    "celular": "011-210987654"
+  },
+  {
+    "matricula": "M901234",
+    "especialidad": "Neurología",
+    "nombre": "Gabriela",
+    "apellido": "Martínez",
+    "fecha_ingreso": "2022-09-16",
+    "cargo": ["Técnico de Hemoterapia"],
+    "numero_fijo": "011-5678901",
+    "celular": "011-109876543"
+  },
+  {
+    "matricula": "M567890",
+    "especialidad": "Neurología",
+    "nombre": "Federico",
+    "apellido": "Fernández",
+    "fecha_ingreso": "2018-11-12",
+    "cargo": ["Médico de Imágenes"],
+    "numero_fijo": "011-6789012",
+    "celular": "011-098765432"
+  }
+]

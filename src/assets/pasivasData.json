@@ -1,0 +1,87 @@
+{
+  "traumatologia": [
+    {
+      "nombre": "Juan Pérez",
+      "fecha_inicio": "2024-05-01",
+      "fecha_fin": "2024-07-31"
+    },
+    {
+      "nombre": "María Rodríguez",
+      "fecha_inicio": "2024-08-01",
+      "fecha_fin": "2024-10-31"
+    },
+    {
+      "nombre": "Luis Gómez",
+      "fecha_inicio": "2024-11-01",
+      "fecha_fin": "2025-01-31"
+    }
+  ],
+  "neurologia": [
+    {
+      "nombre": "Ana Martínez",
+      "fecha_inicio": "2024-05-01",
+      "fecha_fin": "2024-07-31"
+    },
+    {
+      "nombre": "Pedro Sánchez",
+      "fecha_inicio": "2024-08-01",
+      "fecha_fin": "2024-10-31"
+    },
+    {
+      "nombre": "Elena García",
+      "fecha_inicio": "2024-11-01",
+      "fecha_fin": "2025-01-31"
+    }
+  ],
+  "neurocirugia": [
+    {
+      "nombre": "Carlos López",
+      "fecha_inicio": "2024-05-01",
+      "fecha_fin": "2024-07-31"
+    },
+    {
+      "nombre": "Sofía Díaz",
+      "fecha_inicio": "2024-08-01",
+      "fecha_fin": "2024-10-31"
+    },
+    {
+      "nombre": "Jorge Fernández",
+      "fecha_inicio": "2024-11-01",
+      "fecha_fin": "2025-01-31"
+    }
+  ],
+  "cirugia_plastica": [
+    {
+      "nombre": "Laura Torres",
+      "fecha_inicio": "2024-05-01",
+      "fecha_fin": "2024-07-31"
+    },
+    {
+      "nombre": "Andrés Ramírez",
+      "fecha_inicio": "2024-08-01",
+      "fecha_fin": "2024-10-31"
+    },
+    {
+      "nombre": "Isabel Navarro",
+      "fecha_inicio": "2024-11-01",
+      "fecha_fin": "2025-01-31"
+    }
+  ],
+  "hematologia": [
+    {
+      "nombre": "Miguel González",
+      "fecha_inicio": "2024-05-01",
+      "fecha_fin": "2024-07-31"
+    },
+    {
+      "nombre": "Carmen Ruiz",
+      "fecha_inicio": "2024-08-01",
+      "fecha_fin": "2024-10-31"
+    },
+    {
+      "nombre": "Francisco Molina",
+      "fecha_inicio": "2024-11-01",
+      "fecha_fin": "2025-01-31"
+    }
+  ]
+}
