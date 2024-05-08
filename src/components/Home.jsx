@@ -1,8 +1,13 @@
 import React from "react";
-
+import { useContext } from "react";
+import { UserContext } from "../context/UserContext";
 export const Home = () => {
+
+  const { user} = useContext(UserContext)
+
   return (
     <div>
+      <h2>Bienvenido</h2>
       <h3>Novedades!</h3>
       <p>
         Cambios en las guardias pasivas del día de la fecha.{" "}
