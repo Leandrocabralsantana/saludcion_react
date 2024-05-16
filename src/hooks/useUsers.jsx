@@ -15,7 +15,7 @@ export const useUsers = () => {
       });
       return userInformation;
     } catch (error) {
-      Swal.fire("Ha ocurrido un error. Verifique sus credenciales!");
+      Swal.fire(error.response.data);
     }
   };
 

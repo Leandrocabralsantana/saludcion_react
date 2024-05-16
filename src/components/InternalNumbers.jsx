@@ -1,30 +1,53 @@
 import { useState, useEffect } from "react";
 import internosData from "../assets/internosData.json";
+import { useInternalNumbers } from "../hooks/useInternalNumbers";
 export const InternalNumbers = () => {
   const [numbers, setNumbers] = useState([]);
   const [filteredNumbers, setFilteredNumbers] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
-  const [selectedEmpresa, setSelectedEmpresa] = useState(1);
+  const [selectedInstitution, setSelectedInstitution] = useState(1);
+  const { getAllInternalNumbers, getFloorDescription} = useInternalNumbers();
 
   useEffect(() => {
-    // Filtrar números basados en la empresa seleccionada y el término de búsqueda
-    const filtered = internosData.filter(
-      (number) =>
-        number.empresa.id_empresa === selectedEmpresa &&
-        (number.piso.includes(searchTerm) ||
-          number.nombre.toLowerCase().includes(searchTerm.toLowerCase()) ||
-          number.numero.includes(searchTerm))
-    );
+    const fetchData = async () => {
+      try {
+        const internalNumbers = await getAllInternalNumbers();
+        console.log(internalNumbers)
+        setNumbers(internalNumbers);
+      } catch (error) {
+        console.error("Error fetching messages:", error);
+      }
+    };
+
+    fetchData();
+
+    return () => {
+    };
+  }, []);
+
+  useEffect(() => {
+    const filtered = numbers.filter((number) => {
+      const matchesSearchTerm = 
+        number.internal_number_name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        getFloorDescription(number.internal_number_floor).toLowerCase().includes(searchTerm.toLowerCase()) ||
+        number.external_number_info.toLowerCase().includes(searchTerm.toLowerCase());
+
+      const matchesInstitution = number.id_institution === selectedInstitution;
+
+      return matchesSearchTerm && matchesInstitution;
+    });
     setFilteredNumbers(filtered);
-  }, [searchTerm, selectedEmpresa, numbers]);
+  }, [ searchTerm, selectedInstitution]);
+
 
   const handleSearch = (event) => {
     setSearchTerm(event.target.value);
   };
 
   const handleEmpresaChange = (event) => {
-    setSelectedEmpresa(parseInt(event.target.value));
+    setSelectedInstitution(parseInt(event.target.value));
   };
+
 
   return (
     <div className="App">
@@ -35,29 +58,28 @@ export const InternalNumbers = () => {
           onChange={handleSearch}
           placeholder="Buscar por piso, nombre o número"
         />
-        <select value={selectedEmpresa} onChange={handleEmpresaChange}>
+        <select value={selectedInstitution} onChange={handleEmpresaChange}>
           <option value={1}>Hospital Privado de Rosario</option>
           <option value={2}>Instituto Gamma</option>
 
-          {/* Aquí puedes agregar más opciones si hay más empresas */}
         </select>
       </div>
       <table>
         <thead>
           <tr>
-            <th>Empresa</th>
-            <th>Piso</th>
+            <th>Número interno</th>
             <th>Nombre</th>
-            <th>Número</th>
+            <th>Piso</th>
+            <th>Número externo</th>
           </tr>
         </thead>
         <tbody>
           {filteredNumbers.map((number, index) => (
             <tr key={index}>
-              <td>{number.empresa.nombre}</td>
-              <td>{number.piso}</td>
-              <td>{number.nombre}</td>
-              <td>{number.numero}</td>
+              <td>{number.internal_number_code}</td>
+              <td>{number.internal_number_name}</td>
+              <td>{getFloorDescription(number.internal_number_floor)}</td>
+              <td>{number.external_number_info}</td>
             </tr>
           ))}
         </tbody>

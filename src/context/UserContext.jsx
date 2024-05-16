@@ -17,6 +17,7 @@ export function UserProvider({ children }) {
   }
 
   const handleLogOut = () => {
+    console.log("Usted esta cerrando sesion")
   }
   
   

@@ -14,10 +14,7 @@ export const Navbar = () => {
     console.log("section", section);
   };
 
-  const UserLogout = () => {
-    handleLogOut();
-    
-  }
+
 
   // if(user == null)
   // {
@@ -32,19 +29,25 @@ export const Navbar = () => {
         </button>
 
         <button onClick={() => navigateTo("oncall")}>
-          Abrir guardias pasivas
+          Guardias pasivas
         </button>
         <button onClick={() => navigateTo("phonebook")}>
-          Abrir agenda general
+          Agenda general
         </button>
         <button onClick={() => navigateTo("abm")}>
-          Abrir ABM de profesionales
+          ABM de profesionales
         </button>
         <button onClick={() => navigateTo("internalnumbers")}>
-          Abrir guia de numeros internos
+         Numeros internos
+        </button>
+        <button onClick={() => navigateTo("poe")}>
+          POEs
+        </button>
+        <button onClick={() => navigateTo("ambulance")}>
+          Traslados
         </button>
       </div>
-      <button onClick={handleLogOut()}>Cerrar sesión</button>
+      {/* <button onClick={handleLogOut()}>Cerrar sesión</button> */}
     </>
   );
 };

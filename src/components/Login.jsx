@@ -2,6 +2,7 @@ import React, { useState, useContext, useEffect } from "react";
 import { UserContext } from "../context/UserContext";
 import { useUsers } from "../hooks/useUsers";
 import { useNavigate } from "react-router-dom";
+import  "../styles/Login.css";
 
 export const Login = ({ setUserLogged }) => {
   const { handleNewLogin } = useContext(UserContext);
@@ -16,15 +17,15 @@ export const Login = ({ setUserLogged }) => {
   };
 
   useEffect(() => {
-    if (userData != null) {
+    console.log("userData changed:", userData);  // Agregamos este log para depurar
+    if (userData) {
       setUserLogged(true);
       handleNewLogin(userData);
-      // Redirigir al usuario a la página de inicio después del inicio de sesión exitoso
       navigate("/home");
     } else {
       setUserLogged(false);
     }
-  }, [userData]);
+  }, [userData, setUserLogged, handleNewLogin, navigate]);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -36,8 +37,9 @@ export const Login = ({ setUserLogged }) => {
 
   return (
     <>
-      <h3>Bienvenido</h3>
-      <label>Ingresa tu cuenta</label>
+    <div className="login">
+    <h3>Bienvenido</h3>
+      <label>Ingresa tu usuario</label>
       <input
         type="text"
         name="nickname"
@@ -52,6 +54,8 @@ export const Login = ({ setUserLogged }) => {
         onChange={handleInputChange}
       />
       <button onClick={handleLogin}>Iniciar sesión</button>
+    </div>
+     
     </>
   );
 };

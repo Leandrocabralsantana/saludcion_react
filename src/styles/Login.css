@@ -1,0 +1,21 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.login input {
+    width: 50vw;
+    height: 20px;
+}
+
+.login button {
+    margin-top: 1.5rem;
+    width: 50%;
+    border-radius: 10px!important;
+    height: auto;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+

@@ -5,14 +5,9 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #046a52;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
+  background: linear-gradient(to bottom, #0c150b, #046a52);
+  background-size: cover;
+  background-attachment: fixed; /* Esto evita que el fondo se mueva al hacer scroll */}
 a {
   font-weight: 500;
   color: #646cff;
@@ -29,23 +24,39 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
-
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: #046a52;
+  text-align: left; 
+  margin-top: 20px;
+  margin-bottom: 20px; 
+  text-transform: uppercase;
+  font-weight: bold; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
 }
 
+
 button {
-  border-radius: 8px;
   border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #16a322;
+  background-color: #046a52;
   cursor: pointer;
   transition: border-color 0.25s;
-  margin: 0.5rem;
+}
+button:first-child {
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px; 
+
+
+}
+
+button:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px; 
+
+
 }
 button:hover {
   border-color: #646cff;
@@ -66,4 +77,13 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+
+input {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 0.5rem;
+  max-width: 50vw;
 }

@@ -12,14 +12,12 @@ td {
 }
 
 th {
-  background-color: #025902; /* Fondo verde oscuro para las celdas de encabezado */
+  background-color: #046a52;
   color: #ffffff; /* Texto blanco en celdas de encabezado */
 }
 
-tr:nth-child(even) {
-  background-color: rgb(8, 152, 40); /* Fondo verde oscuro para filas pares */
-}
+
 
 tr:hover {
-  background-color: #33fc2f; /* Fondo verde más oscuro al pasar el ratón */
+  background-color: #024c3b; /* Fondo verde más oscuro al pasar el ratón */
 }

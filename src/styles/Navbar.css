@@ -1,3 +1,18 @@
+
 .navbar {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%; 
+  flex-wrap: nowrap;
 }
+
+.navbar button {
+  border: 1px solid black;
+  flex: 1; 
+  height: auto;
+  min-width: 0; 
+  text-transform: capitalize;
+  padding: 0.2rem;
+}
+
