@@ -1,0 +1,107 @@
+.container {
+    margin-left: 2rem;
+    max-width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  
+  h2, h3 {
+    color: white;
+  }
+
+  .titleAndButtons{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .titleAndButtons:first-child h4{
+    width: 100%;
+  }
+
+  .firstBox {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  
+  .add-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+  
+  .add-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .message-card {
+    background-color: #046a52;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .message-card h4 {
+    margin-top: 0;
+    color: white;
+  }
+  
+  .message-card p {
+    margin: 10px 0;
+  }
+  
+  .message-card small {
+    color: white;
+     
+  }
+  
+  .edit-button, .delete-button {
+    background-color: #035441;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+  }
+  
+  .edit-button:hover {
+    background-color: #035F49;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  
+  .edit-message input, .edit-message textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .edit-message button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-message button:hover {
+    background-color: #218838;
+  }

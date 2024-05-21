@@ -12,7 +12,7 @@ export const InternalNumbers = () => {
     const fetchData = async () => {
       try {
         const internalNumbers = await getAllInternalNumbers();
-        console.log(internalNumbers)
+        // console.log(internalNumbers)
         setNumbers(internalNumbers);
       } catch (error) {
         console.error("Error fetching messages:", error);

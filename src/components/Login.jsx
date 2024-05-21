@@ -17,7 +17,7 @@ export const Login = ({ setUserLogged }) => {
   };
 
   useEffect(() => {
-    console.log("userData changed:", userData);  // Agregamos este log para depurar
+    // console.log("userData changed:", userData);  // Agregamos este log para depurar
     if (userData) {
       setUserLogged(true);
       handleNewLogin(userData);

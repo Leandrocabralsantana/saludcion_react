@@ -20,7 +20,7 @@ import Logo from "../public/nisPUL01.svg";
 function App() {
   const [userLogged, setUserLogged] = useState(null);
 
-  console.log(userLogged, "esto es userlogged en app");
+  // console.log(userLogged, "esto es userlogged en app");
 
   return (
     <>

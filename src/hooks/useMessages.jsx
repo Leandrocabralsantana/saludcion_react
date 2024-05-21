@@ -60,6 +60,23 @@ export const useMessages = () => {
       setError(error);
     }
   };
+  function formatISODate(isoDate) {
+    // Convertir la fecha ISO 8601 a un objeto Date
+    let dateObj = new Date(isoDate);
+    
+    // Formatear la fecha a un formato más legible
+    let options = { 
+        year: 'numeric', 
+        month: 'long', 
+        day: 'numeric', 
+        hour: '2-digit', 
+        minute: '2-digit', 
+    };
+    let formattedDate = dateObj.toLocaleDateString('es-ES', options);
+    
+    // Retornar la fecha formateada en el mensaje
+    return `${formattedDate}`;
+}
 
-  return { sections, loading, error, createMessage, updateMessage, deleteMessage, getAllMessages };
+  return { formatISODate, sections, loading, error, createMessage, updateMessage, deleteMessage, getAllMessages };
 };
